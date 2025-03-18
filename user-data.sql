@@ -8,6 +8,3 @@ CREATE TABLE user_data (
     password VARCHAR(100) NOT null,
     role ENUM('admin', 'simple_user') NOT NULL DEFAULT 'simple_user'
 );
-
-INSERT INTO user_data (name, email, password, role) 
-VALUES ('panu Ks.', 'admin@lion.xyz', 'admin@lion1234', 'admin');
